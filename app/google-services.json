@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1048906803308",
+    "firebase_url": "https://calculategpa-c18d1.firebaseio.com",
+    "project_id": "calculategpa-c18d1",
+    "storage_bucket": "calculategpa-c18d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048906803308:android:b56b229cac520f08309049",
+        "android_client_info": {
+          "package_name": "com.abdallahOdehAbood.calculategpa_petrauni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048906803308-pjosmsa6htdl301fhldj96m7b2nk5i2p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHg44DUFNMwWlehj5e0NnVA5cJi2Z-fWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048906803308-pjosmsa6htdl301fhldj96m7b2nk5i2p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

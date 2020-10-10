@@ -1,0 +1,137 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">إحسب معدلك</string>
+
+    <!-- adapter.java -->
+    <!-- Marks dialog -->
+    <string name="marks">Choose a mark</string>
+    <string-array name="marks">
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>C-</item>
+        <item>D+</item>
+        <item>D</item>
+        <item>D-</item>
+        <item>F</item>
+        <item>@string/passed</item>
+        <item>@string/failed</item>
+        <item>ignore</item>
+    </string-array>
+    <string name="choose_prev_mark">Choose course\'s previous mark</string>
+    <string-array name="prev_marks">
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>C-</item>
+        <item>D+</item>
+        <item>D</item>
+        <item>D-</item>
+        <item>F</item>
+        <item>@string/failed</item>
+        <item>ignore</item>
+    </string-array>
+    <string name="ignore">ignore</string>
+    <string name="passed">Passed (P)</string>
+    <string name="failed">Failed (NP)</string>
+    <string name="cancel">Cancel</string>
+    <string name="withdrawal">Withdrawal under compelling reasons</string>
+    <string name="transfer">Transfer from another university</string>
+    <string name="marks_change_msg">This is the scale distribution, May change depending on the average!</string>
+
+    <!-- Hours dialog -->
+    <string name="hours">Credit hours</string>
+    <string-array name="hours">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <!-- Rate -->
+    <string-array name="levels">
+        <item>Excellent with honor</item>
+        <item>Excellent</item>
+        <item>Very good</item>
+        <item>Good</item>
+        <item>Acceptable</item>
+        <item>Unacceptable</item>
+    </string-array>
+
+    <!-- Toasts -->
+    <string name="done">Course added!</string>
+    <string name="warn1">Fill the past GPA and passed hours please</string>
+    <string name="warn2">Maximum GPA is 4!</string>
+    <string name="report_sent">Sent successfully, Thanks for contacting me.</string>
+    <string name="emptyReportMsg">Fill up some info first!</string>
+    <string name="number_format_exception">Check the number in GPA field!</string>
+
+    <!-- MarksInfo.java -->
+    <string name="least_pass_mark">Minimum passing mark is \'D\'</string>
+    <string name="fail">Failed</string>
+    <string name="fail_by_absent">Failed\nby absent</string>
+    <string name="incomplete">Incomplete</string>
+
+    <!-- Result.java -->
+    <string name="sem_avg">Semester GPA: </string>
+    <string name="newAvg">Overall GPA: </string>
+    <string name="newPassedHours">New passed hours: </string>
+
+    <!-- Settings.java -->
+    <string name="chooseLanguage">Choose a language</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>العربية</item>
+    </string-array>
+
+    <!-- activity_main.xml -->
+    <string name="update_message">A new version is available on the store\nPlease update the app</string>
+
+    <!-- activity_report_problem.xml -->
+    <string name="name">Your name*</string>
+    <string name="email">Your email(To contact you if more details wanted, You can leave it blank)</string>
+    <string name="message">Your message*</string>
+    <string name="reportMsgGuide">Please, Enter the mark of the course, credit hours and the previous mark if exists, Ex. (A, 3, -) \nThanks for helping me to improve and make this application better</string>
+    <string name="send">Send</string>
+
+    <!-- activity_result.xml -->
+    <string name="avg">GPA\nBefore current semester</string>
+    <string name="back">Back</string>
+
+    <!-- activity_settings.xml -->
+    <string name="language">Language</string>
+    <string name="change">Change</string>
+    <string name="theme">Theme</string>
+    <string name="dark">Dark</string>
+    <string name="grids">Grids</string>
+    <string name="show">Show</string>
+    <string name="contact_me">Contact Me</string>
+    <string name="report_issue">Report an issue</string>
+
+    <!-- calculate.xml -->
+    <string name="cal">Calculate</string>
+    <string name="del">Clear fields</string>
+    <string name="add">Add course</string>
+    <string name="LM">Previous mark</string>
+    <string name="Hours">Credit hours</string>
+    <string name="mark">Mark</string>
+    <string name="CH">Passed hours\nBefore current semester"</string>
+    <string name="tutorial">Enter ZEROS in the next two fields if you are in your first semester</string>
+
+    <!-- show_info.xml -->
+    <string name="info_source">information source:\n(University website - Student Guide)</string>
+
+    <!-- menu.xml -->
+    <string name="showMarksInfo">Marks info.</string>
+    <string name="showMarksDistribution">Marks distribution</string>
+    <string name="showGPAInfo">GPA info.</string>
+    <string name="settings">Settings</string>
+</resources>

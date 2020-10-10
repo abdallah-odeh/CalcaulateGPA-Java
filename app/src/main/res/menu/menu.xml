@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/marks_info"
+        android:title="@string/showMarksInfo"
+        android:icon="@drawable/info"/>
+
+    <item
+        android:id="@+id/marks_distribution"
+        android:title="@string/showMarksDistribution"
+        android:icon="@drawable/info"/>
+
+    <item
+        android:id="@+id/gpa_info"
+        android:title="@string/showGPAInfo"
+        android:icon="@drawable/info" />
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"/>
+
+</menu>

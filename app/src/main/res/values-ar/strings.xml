@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">إحسب معدلك</string>
+
+    <!-- adapter.java -->
+    <!-- Marks dialog -->
+    <string name="marks">اختر علامة</string>
+    <string-array name="marks">
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>C-</item>
+        <item>D+</item>
+        <item>D</item>
+        <item>D-</item>
+        <item>F</item>
+        <item>@string/passed</item>
+        <item>@string/failed</item>
+        <item>تجاهل</item>
+    </string-array>
+    <string name="choose_prev_mark">اختر علامة المادة السابقة</string>
+    <string-array name="prev_marks">
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>C-</item>
+        <item>D+</item>
+        <item>D</item>
+        <item>D-</item>
+        <item>F</item>
+        <item>@string/failed</item>
+        <item>تجاهل</item>
+    </string-array>
+    <string name="ignore">تجاهل</string>
+    <string name="passed">ناجح (P)</string>
+    <string name="failed">راسب (NP)</string>
+    <string name="cancel">إلغاء</string>
+    <string name="withdrawal">انسحاب قهري</string>
+    <string name="transfer">تحويل من جامعة أخرى</string>
+    <string name="marks_change_msg">قد يتغيّر هذا التوزيع بناءً على ال \"الاڤرج\"</string>
+
+    <!-- Hours dialog -->
+    <string name="hours">ساعات المادة</string>
+    <string-array name="hours">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <!-- Rate -->
+    <string-array name="levels">
+        <item>إمتياز مع مرتبة الشرف</item>
+        <item>إمتياز</item>
+        <item>جيد جداً</item>
+        <item>جيد</item>
+        <item>مقبول</item>
+        <item>ضعيف</item>
+    </string-array>
+
+    <!-- Toasts -->
+    <string name="done">تمت إضافة مادة!</string>
+    <string name="warn1">يجب ملء خانتي المعدل والساعات</string>
+    <string name="warn2">اقصى حد للمعدل هو 4!</string>
+    <string name="report_sent">تم إرسال الرسالة</string>
+    <string name="emptyReportMsg">يجب عليك تعبئة بعض المعلومات اولاً</string>
+    <string name="number_format_exception">تحقق من الرقم في خانة المعدل!</string>
+
+    <!-- MarksInfo.java -->
+    <string name="least_pass_mark">الحد الأدنى لعلامة النجاح هو \'D\'</string>
+    <string name="fail">راسب</string>
+    <string name="fail_by_absent">راسب بالتغيّب</string>
+    <string name="incomplete">غير مكتمل</string>
+
+    <!-- Result.java -->
+    <string name="sem_avg">معدلك الفصلي: </string>
+    <string name="newAvg">معدلك التراكمي الجديد: </string>
+    <string name="newPassedHours">الساعات المجتازة الجديدة: </string>
+
+    <!-- Settings.java -->
+    <string name="chooseLanguage">اختر لغة</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>العربية</item>
+    </string-array>
+
+    <!-- activity_main.xml -->
+    <string name="update_message">هناك تحديث جديد! يرجى استعمال آخر إصدار للتطبيق.</string>
+
+    <!-- activity_report_problem.xml -->
+    <string name="name">الإسم*</string>
+    <string name="email">البريد الإلكتروني (لطلب بعض المعلومات الإضافية إن لزم, يمكنك تركه فارغاً)</string>
+    <string name="message">رسالتك*</string>
+    <string name="reportMsgGuide">رجاءً, أدخل المعدل الذي ادخلته, عدد الساعات التي أدخلتها والمواد التي أدخلتها لتتبع البرنامج ومعرفة أين الخطأ \nمثلاً, (A, 3, -) \nشكراً لمساعدتي على تحسين البرنامج وتقديم الأفضل.</string>
+    <string name="send">أرسل</string>
+
+    <!-- activity_result.xml -->
+    <string name="back">رجوع</string>
+
+    <!-- activity_settings.xml -->
+    <string name="language">اللغة</string>
+    <string name="change">تغيير</string>
+    <string name="theme">المظهر</string>
+    <string name="dark">اسود</string>
+    <string name="grids">عرض الحدود</string>
+    <string name="show">عرض</string>
+    <string name="contact_me">تواصل معي</string>
+    <string name="report_issue">إبلاغ عن مشكلة</string>
+
+    <!-- calculate.xml -->
+    <string name="cal">إحسب</string>
+    <string name="del">مسح الحقول</string>
+    <string name="add">إضافة مادة</string>
+    <string name="LM">العلامة السابقة</string>
+    <string name="Hours">عدد الساعات</string>
+    <string name="mark">العلامة</string>
+    <string name="CH">الساعات المجتازة، <u>قبل الفصل الحالي</u></string>
+    <string name="avg">المعدل التراكمي، <u>قبل الفصل الحالي</u></string>
+    <string name="tutorial">أدخل صفر بالخانتين التاليتين إذا كنت من طلاب السنة الأولى(فصل أول)</string>
+
+    <!-- show_info.xml -->
+    <string name="info_source">مصدر المعلومات:\n(موقع الجامعة - دليل الطالب)</string>
+
+    <!-- menu.xml -->
+    <string name="showMarksInfo">تصنيف العلامات</string>
+    <string name="showMarksDistribution">توزيع العلامات</string>
+    <string name="showGPAInfo">تصنيف المعدلات</string>
+    <string name="settings">الإعدادات</string>
+</resources>
+

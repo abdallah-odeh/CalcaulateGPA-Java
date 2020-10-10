@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    tools:context=".Activities.SplashScreen">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/alert"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/uni_logo"
+            android:backgroundTint="?attr/editTextColor"
+            android:alpha="0.8"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/app_name"
+            style="@style/font_roboto_din_medium"
+            android:textAlignment="center"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/alert"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginBottom="7dp"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/nameLabel"
+        android:background="@color/alert_message"
+        android:visibility="invisible">
+        <TextView
+            android:id="@+id/updateMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/font_roboto_din_medium"
+            android:text="@string/update_message"
+            android:includeFontPadding="false"
+            android:maxLines="2"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Done by Abdallah Odeh"
+        android:fontFamily="@font/din_next_lt_w23_regular"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
